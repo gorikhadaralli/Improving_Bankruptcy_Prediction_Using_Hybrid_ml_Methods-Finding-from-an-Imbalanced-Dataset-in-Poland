@@ -1,0 +1,2 @@
+# Improving_Bankruptcy_Prediction_Using_Hybrid_ml_Methods-Finding-from-an-Imbalanced-Dataset-in-Poland
+The challenge of bankruptcy prediction, critical for averting financial sector losses, is amplified by the prevalence of imbalanced datasets, which often skew prediction models. Addressing this, my study introduces the innovative hybrid model XGBoost+ANN, designed to leverage the strengths of both ensemble learning and artificial neural networks.
