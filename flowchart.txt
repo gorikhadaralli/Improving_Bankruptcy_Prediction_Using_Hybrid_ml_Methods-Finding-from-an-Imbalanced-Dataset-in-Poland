@@ -1,0 +1,58 @@
+1. Importing the packages
+2. Exploring the dataset 
+    - Polish Bankrupt Data
+3. Data processing
+	- pandas dataframe
+	- Dropping unwanted column
+	- Keras Preprocessing
+
+4. Visualization using seaborn & matplotlib
+5. Label Encoding using LabelEncoder
+6. Feature Selection
+	- With Feature Selection using SelectMutual
+	- With All Feature
+8. Splitting the data into train and test
+9. Building the model
+
+	- Opt Based on GA
+
+		- SVM
+		- XGB
+		- ANN
+		- Hybrid Model XGB + ANN
+		- Voting Classifier (Bagging Classifier with RF + DT)
+
+	- Opt Based on PSO
+
+		- SVM
+		- XGB
+		- ANN
+		- Hybrid Model XGB + ANN
+		- Voting Classifier (Bagging Classifier with RF + DT)
+
+10. Training the model
+11. Dumping the best model 
+
+
+
+Flask Framework
+----------------
+ 
+12. Flask Framework with Sqlite for signup and signin
+13. Importing the packages
+14. User gives input as Feature Values 
+15. The given input is preprocessed for prediction
+16. Trained model is used for prediction
+17. Final outcome is displayed through frontend
+
+
+
+Extension
+----------
+
+In the base paper the author mentioned to use Bankrupt Prediction Data for analysis and predicting whether the bank is crupt or not
+using hybrid model of XGB + ANN and compared with other models, and proposed model got 98% of accuracy,
+As an extension we applied an ensemble method  combining the predictions of multiple individual models to produce a more robust and accurate final prediction.
+However, we can further enhance the performance by exploring other ensemble techniques such as Voting Classifier, 
+from which voting classifier got 100% of accuracy,
+As an extension we can build the front end using the flask framework for user testing and with user authentication.
